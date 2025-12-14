@@ -3,11 +3,7 @@ media = 0
 cont = 0
 for i in lista:
     cont += 1
-    media+= float(i)
+    media += float(i)
 
 media = media/cont
 print(f"valor media = {media}")
-
-
-
-
