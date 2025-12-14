@@ -2,20 +2,21 @@
 
 TAMANHO = 7
 
-codigo_identificador = input("Digite um codigo identificador")
-flag = 0
+codigo_identificador = input("Digite um codigo identificador ")
 
 if len(codigo_identificador) == TAMANHO:
-    if (codigo_identificador.startswith("BR") and codigo_identificador.endswith("X")):
+    if (codigo_identificador[0] == 'B' and codigo_identificador[1] == 'R'):
 
-        meio = codigo_identificador[2:6]
+        meio = codigo_identificador[2:5]
 
         if meio.isdigit():
 
-            if meio != "0000":
-                flag = 1
+            if meio == "0000":
+                print("invalido")
 
-if flag == 1:
-    print("valido")
-else:
-    print("Invalido")
+        if codigo_identificador[6] == 'X':
+            print("valido")
+        else:
+            print("Invalido")
+    else:
+        print("invalido")
