@@ -27,7 +27,7 @@ print(nome[0], nome[-1])
 print(nome.lower())
 print(nome.upper())
 
-print(1, 3, 7, 10, 'desadsa', sep = '  ')
+print(1, 3, 7, 10, 'desadsa', sep='  ')
 
 # Boolean
 
@@ -74,7 +74,7 @@ print(resultado_sorteio)
 
 # Dicionarios
 
-funcionario ={
+funcionario = {
     'codigo': 123,
     'nome': 'Maria da Silva',
     'salario': 7000.00

@@ -15,7 +15,7 @@ print(numero)
 nome, idade, endereco = 'Maria', 20, 'Rua das ...'
 print(nome, idade, endereco)
 
-#Melhor legibilidade do codigo
+# Melhor legibilidade do codigo
 nome = 'Maria'
 idade = 20
 endereco = 'Rua das ...'
@@ -30,7 +30,7 @@ print(nome1, nome2, nome3)
 nome2 = 'Pedro'
 print(nome1, nome2, nome3)
 
-#Variaveis
+# Variaveis
 # snake_case
 
 id_funcionario = 209

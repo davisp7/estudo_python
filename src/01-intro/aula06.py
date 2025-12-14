@@ -21,4 +21,3 @@ altura = 1.70
 # mensagem = nome + 'tem a altura de ' + str(altura)
 mensagem = f'{nome} tem a altura de {altura}'
 print(mensagem)
-

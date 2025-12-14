@@ -1,20 +1,20 @@
 """ I/O Input and Output"""
-#saida padrao - sys stdout
+# saida padrao - sys stdout
 print('hello world!', 'Maria', 1, True, sep='@', end='!!!!!\n')
 print('hello world!', 'Maria', 1, True, sep='@', end='')
 
 arquivo = open('nomes.txt', 'w', encoding='utf-8')
 
 print(
-        'joao@email.com',
-        'maria@email.com',
-        'pedro@email.com',
-        file= arquivo,
-        sep = ';'
-    )
+    'joao@email.com',
+    'maria@email.com',
+    'pedro@email.com',
+    file=arquivo,
+    sep=';'
+)
 
-#Entrada
-#input
+# Entrada
+# input
 
 # nome = input('Digite seu nome: ')
 # idade = int(input('Digite sua idade: '))
@@ -24,11 +24,11 @@ print(
 # else:
 #     print(f'{nome} é menor de idade')
 
-#file
+# file
 
 arquivo_notas = open('notas.txt', 'r', encoding='utf-8')
 conteudo = arquivo_notas.read()
-notas = conteudo.split(sep = ';')
+notas = conteudo.split(sep=';')
 notas = [float(nota) for nota in notas]
 print(notas)
 
