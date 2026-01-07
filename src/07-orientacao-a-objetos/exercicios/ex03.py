@@ -1,3 +1,6 @@
+"""Exercicio 3"""
+
+
 class Aluno:
     def __init__(self, prontuario, nome, email):
         self.prontuario = prontuario
@@ -44,9 +47,6 @@ class Aluno:
         if '@' not in value or "." not in value:
             raise ValueError('o email deve conter "@" e "." ')
         self._email = value
-
-
-"""Exercicio 2"""
 
 
 class Projeto:
